@@ -1,5 +1,5 @@
 {
-  "name": "/home/ike/code/appPeliculas/",
+  "name": "appPeliculas",
   "version": "1.0.0",
   "description": "Pagina con reseñas de peliculas y actores. Proyecto personal.",
   "main": "actors.html",
