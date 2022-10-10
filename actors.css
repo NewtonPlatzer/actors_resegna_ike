@@ -1,0 +1,161 @@
+body {
+  background-color: #eee;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.menu-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+}
+
+.menu-bar li {
+  float: left;
+}
+
+.menu-bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.menu-bar li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.active {
+  background-color: #4caf50;
+}
+.loginItem {
+  float: right;
+  margin-right: 6px;
+}
+
+/*Main Contentent*/
+
+h3 {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-size: 18px;
+  text-align: center;
+}
+
+p {
+  margin-left: 6px;
+  font-size: 16px;
+  color: rgb(75, 75, 75);
+}
+
+img {
+  border-radius: 4px;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: #333;
+  color: white;
+  text-align: left;
+  padding: 7px;
+}
+
+table td {
+  padding: 8px;
+  border-right: 1px solid lightgray;
+}
+
+.container tr:nth-child(even) {
+  background-color: rgb(219, 219, 219);
+}
+
+.Tittle {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.container {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 01px 01px 1px 1px rgba(0, 0, 0, 0.3);
+  margin-bottom: 12px;
+}
+
+.primary {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 9%;
+}
+
+button {
+  font-weight: bold;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border-style: none;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: -4px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+.container:hover {
+  box-shadow: 01px 01px 1px 1px rgba(0, 0, 0, 0.7);
+  border-radius: 4px;
+}
+
+footer {
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: 26px;
+  margin-bottom: -30px;
+}
+
+footer ul {
+  padding: 10px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  list-style-type: none;
+  background-color: #333;
+  font-size: 18px;
+}
+footer li {
+  display: inline-block;
+  margin-right: 12px;
+  color: white;
+}
+footer li a:hover {
+  color: #4caf50;
+}
+
+footer li:active {
+  background-color: gray;
+}
+footer li a {
+  color: white;
+  text-decoration: none;
+}
