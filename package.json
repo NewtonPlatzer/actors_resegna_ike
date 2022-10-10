@@ -1,15 +1,24 @@
 {
-  "name": "appPeliculas",
+  "name": "/home/ike/code/appPeliculas/",
   "version": "1.0.0",
   "description": "Pagina con reseñas de peliculas y actores. Proyecto personal.",
-  "main": "index.js",
+  "main": "actors.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d ."
   },
   "keywords": [],
   "author": "Ike Gomber",
   "license": "ISC",
   "dependencies": {
     "gh-pages": "^4.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewtonPlatzer/actors_resegna_ike.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NewtonPlatzer/actors_resegna_ike/issues"
+  },
+  "homepage": "https://github.com/NewtonPlatzer/actors_resegna_ike#readme"
 }
